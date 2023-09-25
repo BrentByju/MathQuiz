@@ -1,0 +1,63 @@
+body
+{
+	text-align: center;
+	background-image: url('PowerpointShapes.png');
+	background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		
+		
+		float: none;
+		border-radius: 15px;
+		
+	}
+
+	#TitleName
+	{
+		border-radius: 30px;
+		background-color: white;
+		height: 100px;
+		border: 2px solid black;
+		width: 300px;
+	}
+
+	.button
+	{
+		border-radius: 30px;
+		height: 30px;
+		border: 2px solid black;
+		width: 100px;
+		background-color: white;
+	}
+
+	#player2_name_input , #player1_name_input
+	{
+		float: none;
+		border-radius: 15px;
+		border: 2px solid black;
+	}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}

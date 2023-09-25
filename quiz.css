@@ -1,0 +1,23 @@
+body
+{
+    background-image: url(MathImage.png);
+    background-size: cover;
+    text-align: center;
+}
+
+#output
+{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid gray;
+    padding: 10px;
+    float: none;
+    text-align: left; 
+    width: 500px;
+}
+
+.button
+{
+    width: 100px; height: 
+        30px; border-radius: 30px;
+}

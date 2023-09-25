@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz.css"> 
+
+</head>
+
+
+
+<body>
+
+
+<h4 id="player1">Player 1 Score =</h4> <span><h4 id="score2">0</h4></span>
+<br>
+<h4 id="player2">Player 2 Score = </h4> <span><h4 id="score2">0</h4></span>
+<br>
+<br>
+<div>
+
+</div class="container">
+<center>
+    <h2 style="color: red">The Math Quiz Game!</h2>
+    <h4 id="question"></h4> 
+    <h4 id="answer"></h4>
+
+    <h3 id="question_turn">Question Turn - <span></span></h3>
+
+
+
+    <h3 id="answer_turn">Answer Turn - <span></span></h3>
+    
+    <div id="output">
+
+    
+        <!-- Then a div with id=’output’, which will be used 
+        to store the question, input box for the answer 
+        and the check button, this -    -->
+
+
+
+        
+    </div>
+
+    
+
+
+    <br>
+    <br>
+    <h3>Number 1</h3>
+    <input type="text" id="N1" placeholder="Number 1" style="width: 300px; height: 30px; border-radius: 30px;">
+    <br>
+    <br>
+   <h3>Number 2</h3>
+    <input type="text" id="N2" placeholder="Number 2" style="width: 300px; height: 30px; border-radius: 30px;">
+    <br>
+    <br>
+    
+        <button onclick="send()" class="button">
+        Submit
+        </button>
+
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    
+</center>
+    
+<script src="quiz.js"></script>
+</body>
+</html>
